@@ -5,8 +5,6 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{121AE61C-9C12-4FB8-8FA8-E89171F48E05}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{D73A9BBC-B42B-4338-926D-9214777954F7}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{D2E031D1-0D41-49C1-B3BD-0A1053A23701}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{5CDBA0EE-3769-4C74-8930-8E5DCDFCEA0B}"
@@ -48,11 +46,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.Core.Domain", "src\Modules\Core\Module.Core.Domain\Module.Core.Domain.csproj", "{9393C584-6293-46D0-8FF4-8229F3CCAD68}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.Core.Infrastructure", "src\Modules\Core\Module.Core.Infrastructure\Module.Core.Infrastructure.csproj", "{4B1D3BA6-DA52-44ED-A294-F1514F5AFD02}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{384FE598-01BB-4EAE-84B6-8C15680798B4}"
-	ProjectSection(SolutionItems) = preProject
-		C:\Users\abdul\OneDrive\Desktop\png-transparent-call-centre-raya-contact-center-customer-service-raya-information-technology-raya-miscellaneous-blue-company.png = C:\Users\abdul\OneDrive\Desktop\png-transparent-call-centre-raya-contact-center-customer-service-raya-information-technology-raya-miscellaneous-blue-company.png
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -210,7 +203,6 @@ Global
 		{386182B6-96A4-4F41-B69A-A1642CADD74F} = {B21B2684-9B41-4AA6-8A8F-AE93EA009563}
 		{9393C584-6293-46D0-8FF4-8229F3CCAD68} = {B21B2684-9B41-4AA6-8A8F-AE93EA009563}
 		{4B1D3BA6-DA52-44ED-A294-F1514F5AFD02} = {B21B2684-9B41-4AA6-8A8F-AE93EA009563}
-		{384FE598-01BB-4EAE-84B6-8C15680798B4} = {D73A9BBC-B42B-4338-926D-9214777954F7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {99BD595D-8EC6-45CE-87A0-7C8DFE52F549}
