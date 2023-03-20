@@ -7,10 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Contexts\" />
     <Folder Include="Migrations\" />
     <Folder Include="Logger\" />
-    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Modules\Identity Management\Module.IdentityManagement.Domain\Module.IdentityManagement.Domain.csproj" />
+    <ProjectReference Include="..\Shared.Domain\Shared.Domain.csproj" />
   </ItemGroup>
 
 </Project>
