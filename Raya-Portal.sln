@@ -27,25 +27,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serveillence", "Serveillenc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity Management", "Identity Management", "{C2A1B422-DE27-4056-8C64-7F212E7001AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.IdentityManagement.Domain", "src\Modules\Identity Management\Module.IdentityManagement.Domain\Module.IdentityManagement.Domain.csproj", "{EC31CB49-AB81-432A-A92B-ECAB54C7D5AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.IdentityManagement.Domain", "src\Modules\Identity Management\Module.IdentityManagement.Domain\Module.IdentityManagement.Domain.csproj", "{EC31CB49-AB81-432A-A92B-ECAB54C7D5AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.IdentityManagement.Infrastructure", "src\Modules\Identity Management\Module.IdentityManagement.Infrastructure\Module.IdentityManagement.Infrastructure.csproj", "{A93284B9-25AE-4F41-AD71-605F7118C30D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.IdentityManagement.Infrastructure", "src\Modules\Identity Management\Module.IdentityManagement.Infrastructure\Module.IdentityManagement.Infrastructure.csproj", "{A93284B9-25AE-4F41-AD71-605F7118C30D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Domain", "src\Shared\Shared.Domain\Shared.Domain.csproj", "{6791927C-8187-4703-BC23-8FFD885EDE7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Domain", "src\Shared\Shared.Domain\Shared.Domain.csproj", "{6791927C-8187-4703-BC23-8FFD885EDE7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Infrastructure", "src\Shared\Shared.Infrastructure\Shared.Infrastructure.csproj", "{DDF74659-90DF-4C53-A567-E04162EF07C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Infrastructure", "src\Shared\Shared.Infrastructure\Shared.Infrastructure.csproj", "{DDF74659-90DF-4C53-A567-E04162EF07C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntryPoint", "src\API\EntryPoint\EntryPoint.csproj", "{16A9E299-D659-47EB-8DC1-AD33DF7C53C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntryPoint", "src\API\EntryPoint\EntryPoint.csproj", "{16A9E299-D659-47EB-8DC1-AD33DF7C53C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.IdentityManagement.Application", "src\Modules\Identity Management\Module.IdentityManagement.Application\Module.IdentityManagement.Application.csproj", "{DEFA1F6C-4C5B-4E3F-BE1C-191EA10BAE33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.IdentityManagement.Application", "src\Modules\Identity Management\Module.IdentityManagement.Application\Module.IdentityManagement.Application.csproj", "{DEFA1F6C-4C5B-4E3F-BE1C-191EA10BAE33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Application", "src\Shared\Shared.Application\Shared.Application.csproj", "{B6007EA6-6F03-4239-9EF6-FDABB78A3596}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.Core.Application", "src\Modules\Core\Module.Core.Application\Module.Core.Application.csproj", "{386182B6-96A4-4F41-B69A-A1642CADD74F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.Core.Application", "src\Modules\Core\Module.Core.Application\Module.Core.Application.csproj", "{386182B6-96A4-4F41-B69A-A1642CADD74F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.Core.Domain", "src\Modules\Core\Module.Core.Domain\Module.Core.Domain.csproj", "{9393C584-6293-46D0-8FF4-8229F3CCAD68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.Core.Domain", "src\Modules\Core\Module.Core.Domain\Module.Core.Domain.csproj", "{9393C584-6293-46D0-8FF4-8229F3CCAD68}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.Core.Infrastructure", "src\Modules\Core\Module.Core.Infrastructure\Module.Core.Infrastructure.csproj", "{4B1D3BA6-DA52-44ED-A294-F1514F5AFD02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.Core.Infrastructure", "src\Modules\Core\Module.Core.Infrastructure\Module.Core.Infrastructure.csproj", "{4B1D3BA6-DA52-44ED-A294-F1514F5AFD02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,18 +127,6 @@ Global
 		{DEFA1F6C-4C5B-4E3F-BE1C-191EA10BAE33}.Release|arm64.Build.0 = Release|Any CPU
 		{DEFA1F6C-4C5B-4E3F-BE1C-191EA10BAE33}.Release|x86.ActiveCfg = Release|Any CPU
 		{DEFA1F6C-4C5B-4E3F-BE1C-191EA10BAE33}.Release|x86.Build.0 = Release|Any CPU
-		{B6007EA6-6F03-4239-9EF6-FDABB78A3596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B6007EA6-6F03-4239-9EF6-FDABB78A3596}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B6007EA6-6F03-4239-9EF6-FDABB78A3596}.Debug|arm64.ActiveCfg = Debug|Any CPU
-		{B6007EA6-6F03-4239-9EF6-FDABB78A3596}.Debug|arm64.Build.0 = Debug|Any CPU
-		{B6007EA6-6F03-4239-9EF6-FDABB78A3596}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{B6007EA6-6F03-4239-9EF6-FDABB78A3596}.Debug|x86.Build.0 = Debug|Any CPU
-		{B6007EA6-6F03-4239-9EF6-FDABB78A3596}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B6007EA6-6F03-4239-9EF6-FDABB78A3596}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B6007EA6-6F03-4239-9EF6-FDABB78A3596}.Release|arm64.ActiveCfg = Release|Any CPU
-		{B6007EA6-6F03-4239-9EF6-FDABB78A3596}.Release|arm64.Build.0 = Release|Any CPU
-		{B6007EA6-6F03-4239-9EF6-FDABB78A3596}.Release|x86.ActiveCfg = Release|Any CPU
-		{B6007EA6-6F03-4239-9EF6-FDABB78A3596}.Release|x86.Build.0 = Release|Any CPU
 		{386182B6-96A4-4F41-B69A-A1642CADD74F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{386182B6-96A4-4F41-B69A-A1642CADD74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{386182B6-96A4-4F41-B69A-A1642CADD74F}.Debug|arm64.ActiveCfg = Debug|Any CPU
@@ -199,7 +185,6 @@ Global
 		{DDF74659-90DF-4C53-A567-E04162EF07C2} = {1B858F0B-DC30-440C-AA64-B27095A3914A}
 		{16A9E299-D659-47EB-8DC1-AD33DF7C53C3} = {D2E031D1-0D41-49C1-B3BD-0A1053A23701}
 		{DEFA1F6C-4C5B-4E3F-BE1C-191EA10BAE33} = {C2A1B422-DE27-4056-8C64-7F212E7001AE}
-		{B6007EA6-6F03-4239-9EF6-FDABB78A3596} = {1B858F0B-DC30-440C-AA64-B27095A3914A}
 		{386182B6-96A4-4F41-B69A-A1642CADD74F} = {B21B2684-9B41-4AA6-8A8F-AE93EA009563}
 		{9393C584-6293-46D0-8FF4-8229F3CCAD68} = {B21B2684-9B41-4AA6-8A8F-AE93EA009563}
 		{4B1D3BA6-DA52-44ED-A294-F1514F5AFD02} = {B21B2684-9B41-4AA6-8A8F-AE93EA009563}

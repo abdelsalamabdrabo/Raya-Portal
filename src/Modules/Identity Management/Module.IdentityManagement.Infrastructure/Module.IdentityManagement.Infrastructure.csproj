@@ -7,9 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Contexts\" />
-    <Folder Include="Migrations\" />
     <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Module.IdentityManagement.Domain\Module.IdentityManagement.Domain.csproj" />
   </ItemGroup>
 
 </Project>
